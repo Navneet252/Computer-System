@@ -1,0 +1,100 @@
+C++
+	INT:
+	256: 
+		navneet@navneet-VirtualBox:~$ g++ matrixcpp.cpp 
+		navneet@navneet-VirtualBox:~$ time ./a.out
+		Time for Multiplication 0.085279 sec
+
+		real	0m0.170s
+		user	0m0.091s
+		sys	0m0.079s
+		
+	1024:
+		Time for Multiplication 5.94281 sec
+
+		real	0m6.035s
+		user	0m5.960s
+		sys	0m0.068s	
+		
+	4096:
+		Time for Multiplication 588.851 sec
+
+		real	9m49.115s
+		user	9m48.929s
+		sys	0m0.064s
+
+	Double:
+	256:
+		Time for Multiplication 0.088041 sec
+
+		real	0m0.247s
+		user	0m0.111s
+		sys	0m0.136s
+
+	1024:
+		Time for Multiplication 8.20539 sec
+
+		real	0m8.370s
+		user	0m8.231s
+		sys	0m0.136s
+		
+	4096:
+		Time for Multiplication 1043.27 sec
+
+		real	17m24.672s
+		user	17m23.348s
+		sys	0m0.572s
+
+Python:
+	INT:
+	256:
+		navneet@navneet-VirtualBox:~$ time pypy matrix.py
+		('Meat part time in seconds ', 0.07375121116638184)
+
+		real	0m0.112s
+		user	0m0.104s
+		sys	0m0.008s
+
+		
+	1024:
+		('Meat part time in seconds ', 4.374078989028931)
+
+		real	0m4.450s
+		user	0m4.424s
+		sys	0m0.024s
+
+
+		
+	4096:
+		('Meat part time in seconds ', 627.8502459526062)
+
+		real	10m28.451s
+		user	10m28.624s
+		sys	0m0.060s
+
+
+
+	Double:
+	256:
+		('Meat part time in seconds ', 0.05784201622009277)
+
+		real	0m0.095s
+		user	0m0.079s
+		sys	0m0.017s
+
+
+	1024:	
+		('Meat part time in seconds ', 3.938451051712036)
+
+		real	0m4.004s
+		user	0m3.989s
+		sys	0m0.016s
+
+	4096:
+		('Meat part time in seconds ', 603.2656509876251)
+
+		real	10m3.762s
+		user	10m3.564s
+		sys	0m0.076s
+
+
